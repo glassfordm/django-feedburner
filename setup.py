@@ -26,7 +26,7 @@ class UltraMagicString(object):
         return self.value.split(*args, **kw)
 
 
-long_description = UltraMagicString(file('README').read())
+# long_description = UltraMagicString(file('README').read())
 
 setup(
     name = 'django-feedburner',
@@ -34,7 +34,7 @@ setup(
     url = 'https://launchpad.net/django-feedburner',
     license = 'BSD',
     description = 'Handles redirection of django feeds to feedburner urls.',
-    long_description = long_description,
+    # long_description = long_description,
     author = UltraMagicString('Gregor Müllegger'),
     author_email = 'gregor@muellegger.de',
     classifiers=[
